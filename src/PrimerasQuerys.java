@@ -6,11 +6,11 @@ import java.util.List;
 
 public class PrimerasQuerys extends Funciones {
 
-    final static String DB4OFILENAME = System.getProperty("user.home") + "/formula1.db4o4";
+    final static String nombreArchivo = System.getProperty("user.home") + "/formula1.db4o4";
 
     public static void main(String[] args) {
         ObjectContainer db=Db4o.openFile(Db4o
-                .newConfiguration(), DB4OFILENAME);
+                .newConfiguration(), nombreArchivo);
         try {
             guardarPrimerPiloto(db);
             guardarSegundoPiloto(db);
@@ -26,15 +26,15 @@ public class PrimerasQuerys extends Funciones {
     }
 
     public static void guardarPrimerPiloto(ObjectContainer db) {
-        Piloto participante1 =new Piloto("Michael Schumacher",100);
-        db.store(participante1);
-        System.out.println("Stored "+ participante1);
+        Piloto piloto1 =new Piloto("Michael Schumacher",100);
+        db.store(piloto1);
+        System.out.println("Stored "+ piloto1);
     }
 
     public static void guardarSegundoPiloto(ObjectContainer db) {
-        Piloto participante2 =new Piloto("Rubens Barrichello",99);
-        db.store(participante2);
-        System.out.println("Stored "+ participante2);
+        Piloto piloto2 =new Piloto("Rubens Barrichello",99);
+        db.store(piloto2);
+        System.out.println("Stored "+ piloto2);
     }
 
     public static void guardarTercerPiloto(ObjectContainer db) {
