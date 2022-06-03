@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="ant">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/ant.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-taj.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-java1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-osgi-test.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-java5-5.5.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-java5.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-bench.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-tools.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-osgi.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/bloat-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-db4ounit.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-java1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-instrumentation.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/db4o-7.2.44.10827-nqopt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>
